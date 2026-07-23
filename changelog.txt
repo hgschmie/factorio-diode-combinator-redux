@@ -1,5 +1,5 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.0.2
+Version: 1.0.0
 Date: 2026-07-23
   Bugfixes:
     - add migration to make existing combinators operable

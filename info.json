@@ -1,6 +1,6 @@
 {
   "name": "diode-combinator-redux",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "title": "Diode Combinator (Redux)",
   "description": "A signal diode that makes signals flow in only one direction.",
   "author": "hgschmie",
@@ -12,7 +12,7 @@
     "! diode-combinator"
   ],
   "package": {
-    "git_publish_branch": "main",
+    "git_publish_branch": "2.0-maint",
     "readme": "README.md",
     "gallery": [
       "portal/portal-1.png",
