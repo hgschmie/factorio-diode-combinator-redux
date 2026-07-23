@@ -2,7 +2,7 @@
   "name": "diode-combinator-redux",
   "version": "0.0.1",
   "title": "Diode Combinator (Redux)",
-  "description": "A signal diode that make signals flow in only one direction.",
+  "description": "A signal diode that makes signals flow in only one direction.",
   "author": "hgschmie",
   "contact": "https://github.com/hgschmie/factorio-diode-combinator-redux/issues/",
   "homepage": "https://github.com/hgschmie/factorio-diode-combinator-redux",
@@ -14,7 +14,11 @@
   "package": {
     "git_publish_branch": "main",
     "readme": "README.md",
-    "gallery": [],
+    "gallery": [
+      "portal/portal-1.png",
+      "portal/portal-2.png",
+      "portal/portal-3.png"
+    ],
     "sync_portal_details": true,
     "ignore": [
       "portal/*",

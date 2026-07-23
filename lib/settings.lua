@@ -4,7 +4,7 @@
 
 local const = require('lib.constants')
 
----@type ff2.ModSettings
+---@type table<FrameworkSettings.name, FrameworkSettingsGroup>
 local Settings = {
 }
 
