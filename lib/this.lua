@@ -6,16 +6,19 @@ local const = require('lib.constants')
 
 ---@class dico.Mod
 ---@field other_mods table<string, string>
+---@field settings ff2.ModSettings
 ---@field DiCo dico.DiCo
 ---@field Gui dico.Gui
 local This = {
     other_mods = {
         compaktcircuit = 'compaktcircuit',
+        ['compaktcircuit-factorio21'] = 'compaktcircuit',
     },
     remote_apis = {
         PickerDollies = 'picker_dollies',
         compaktcircuit = 'compaktcircuit',
     },
+    settings = require('lib.settings')
 }
 
 if script then

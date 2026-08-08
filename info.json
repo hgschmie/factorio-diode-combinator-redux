@@ -9,7 +9,9 @@
   "factorio_version": "2.1",
   "dependencies": [
     "base >= 2.1.7",
-    "! diode-combinator"
+    "! diode-combinator",
+    "(?)compaktcircuit",
+    "(?)compaktcircuit-factorio21"
   ],
   "package": {
     "git_publish_branch": "main",
