@@ -9,6 +9,7 @@ local const = require('lib.constants')
 ---@field settings ff2.ModSettings
 ---@field DiCo dico.DiCo
 ---@field Gui dico.Gui
+---@field DescGui dico.DescGui
 local This = {
     other_mods = {
         compaktcircuit = 'compaktcircuit',
@@ -24,6 +25,7 @@ local This = {
 if script then
     This.DiCo = require('scripts.dico')
     This.Gui = require('scripts.gui')
+    This.DescGui = require('scripts.desc-gui')
 end
 
 --------------------------------------------------------------------------------

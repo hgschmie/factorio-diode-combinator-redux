@@ -11,6 +11,7 @@ This is an improved version of the [Signal Diode combinator](https://mods.factor
 - [CompactCircuit](https://mods.factorio.com/mod/compaktcircuit) (filter combinators can be used in compact circuits)
 - [Picker Dollies](https://mods.factorio.com/mod/PickerDollies) (filter combinators can be moved and rotated)
 
+The code was partially written and reviewed by AI coding agents. If you are fundamentally opposed to using AI tools to develop software and improve software quality, you are free to not install it.
 
 --------------------------------------------------
 Copyright (C) 2026 Henning Schmiedehausen, licensed under the MIT license.

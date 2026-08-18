@@ -52,5 +52,10 @@ Constants.dico_name = 'signal-diode-combinator' -- Constants:with_prefix(Constan
 -- Compactcircuits support
 Constants.dico_name_packed = Constants.dico_name .. '-packed'
 
+-- GUI input handling
+Constants.custom_input_toggle_menu = Constants:with_prefix('toggle-menu')
+Constants.custom_input_confirm_gui = Constants:with_prefix('confirm-gui')
+Constants.custom_input_ignore_close = Constants:with_prefix('ignore-close')
+
 ------------------------------------------------------------------------
 return Constants
