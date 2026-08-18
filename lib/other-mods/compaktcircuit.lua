@@ -92,7 +92,7 @@ return {
         local data_util = require('framework.prototypes.data-util')
 
         local dico_packed = data_util.copy_entity_prototype(data.raw['arithmetic-combinator'][const.dico_name],
-            const.dico_name_packed, true) --[[@as data.ArithmeticCombinatorPrototype ]]
+            const.dico_name_packed, true) --[[@as ArithmeticCombinatorPrototype ]]
 
         -- ArithmeticCombinatorPrototype
         for _, field in pairs(AC_SPRITES) do
