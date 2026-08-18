@@ -350,8 +350,8 @@ function Gui.getUi(gui)
                                         type = 'label',
                                         name = 'description-text',
                                         caption = description,
-                                        single_line = false,
                                         style_mods = {
+                                            single_line = false,
                                             horizontally_stretchable = true,
                                             horizontally_squashable = true,
                                         },
