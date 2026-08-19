@@ -22,7 +22,7 @@ local This = {
     settings = require('lib.settings'),
 }
 
-if script then
+function This.boot()
     This.DiCo = require('scripts.dico')
     This.Gui = require('scripts.gui')
     This.DescGui = require('scripts.desc-gui')
