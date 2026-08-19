@@ -421,16 +421,10 @@ end
 ----------------------------------------------------------------------------------------------------
 
 --- close the UI (button or shortcut key)
----@param event EventData.on_gui_click|EventData.on_gui_closed
+---@param event EventData.on_gui_click|EventData.on_gui_closed|framework.gui.custominput_data
 ---@param gui framework.gui
 function Gui.onWindowClosed(event, gui)
-    ---@type dico.GuiContext
-    local context = gui.context
-
-    local entity = context.entity
-    if not (entity and entity.valid) then return end
-
-    Framework.gui_manager:destroyGui(event.player_index, gui.type)
+    Framework.gui_manager:destroyGuiByPlayer(event.player_index)
 end
 
 ---@param event EventData.on_gui_click

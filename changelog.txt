@@ -1,7 +1,9 @@
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.2
 Date: ????
-  Changes:
+  Bugfixes:
+    - hide debug setting as the combinator has no debug mode
+    - fix that closing the main gui or opening another gui may leave GUis linger around
 ---------------------------------------------------------------------------------------------------
 Version: 2.1.1
 Date: 2026-08-17
