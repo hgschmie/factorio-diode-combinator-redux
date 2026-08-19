@@ -93,6 +93,7 @@ function FrameworkDataUtil.copy_entity_prototype(prototype, new_name, make_invis
     p.hidden = true
     p.hidden_in_factoriopedia = true
     p.minable = nil
+    p.selection_box = nil
     p.selectable_in_game = false
     p.selection_priority = 1
 
