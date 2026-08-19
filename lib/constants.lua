@@ -13,6 +13,7 @@ local table = require('stdlib.utils.table')
 ---@class dico.Constants
 local Constants = {
     prefix = 'hps__dc-',
+    log_prefix = 'DiCo',
     name = 'diode-combinator-redux',
     root = '__diode-combinator-redux__',
     order = 'c[combinators]-cd[diode-combinator-redux]',
